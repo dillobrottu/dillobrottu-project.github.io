@@ -1,6 +1,3 @@
-hr {
-	border-top: 5px dashed red;
-	}
 body {
 	font-family: "Arial";
 	border-top-style: double;
@@ -9,6 +6,44 @@ body {
 	border-bottom-style: double;
 	border-color: #DA2128;
 	border-width: 25px;	
+	}
+nav {
+    width: 90%;
+    height: 170px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 5%;
+    background-color: #3730c4;
+}
+nav .heading {
+    font-size: 70px;
+    font-weight: 700;
+    color: white;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+}
+nav ul li {
+    padding: 8px 15px;
+    border-radius: 10px;
+    transition: 0.2s ease-in;
+}
+nav ul li a {
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+    text-decoration: none;
+    color: white;
+}
+nav ul li:hover {
+    background-color: #0066B1;
+}
+nav ul li a:hover {
+    color: white;
+}
+hr {
+	border-top: 5px dashed red;
 	}
 h1 {
 	font-size: 45px;
