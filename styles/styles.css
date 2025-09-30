@@ -1,0 +1,42 @@
+hr {
+	border-top: 5px dashed red;
+	}
+body {
+	font-family: "Arial";
+	border-top-style: double;
+	border-left-style: double;
+	border-right-style: double;
+	border-bottom-style: double;
+	border-color: #DA2128;
+	border-width: 25px;	
+	}
+h1 {
+	font-size: 45px;
+	text-shadow: -2px 2px 0 #0a0707;
+	color: #CC0000;
+}
+h2 {
+	font-size: 35px;
+	color: #CC0000;
+}
+h3 {
+	font-size: 20px;
+	padding-top: 5px;
+	padding-bottom: 10px;
+	color: #CC0000;
+}
+p {
+	font-size: 20px;
+	color: #37373c;
+	}
+ul {
+	font-size: 20px;
+	display: table;
+	text-align: center;
+	position: relative; left: -18px;
+	color: #282828;
+	}
+a {
+	font-size: 20px;
+	text-decoration:none
+}
