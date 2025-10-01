@@ -65,19 +65,19 @@ nav ul li a:hover {
 	grid-area: index; 
 }
 .item1 p {
-	font-size:30px;
+	font-size: 30px;
 }
 .item2 { 
 	grid-area: page2; 
 }
 .item2 p {
-	font-size:30px;
+	font-size: 30px;
 }
 .item3 { 
 	grid-area: page3; 
 }
 .item3 p {
-	font-size:30px;
+	font-size: 30px;
 }
 
 .page2-container {
@@ -100,20 +100,21 @@ nav ul li a:hover {
 	grid-area: top;
 }
 .page2-item1 p {
-	font-size:30px;
+	font-size: 30px;
 }
 .page2-item2 {
 	grid-area: bottom;
 }
 .page2-item2 p {
-	font-size:30px;
+	font-size: 30px;
 }
 
 .page3-container {
 	display: grid;
 	grid-template-areas:
-		'top'
-		'bottom'
+		'item1 item2'
+		'item3 item4'
+		'foot foot'
 		;
 	gap: 10px;
 	background-color: #ed3205;
@@ -126,16 +127,65 @@ nav ul li a:hover {
 	font-size: 30px;
 }
 .page3-item1 {
-	grid-area: top;
+	grid-area: item1;
+}
+.page3-item1 h1 {
+	font-size: 30px;
 }
 .page3-item1 p {
-	font-size:30px;
+	font-size: 20px;
 }
 .page3-item2 {
-	grid-area: bottom;
+	grid-area: item2;
+}
+.page3-item2 h1 {
+	font-size: 30px;
 }
 .page3-item2 p {
-	font-size:30px;
+	font-size: 20px;
+}
+.page3-item3 {
+	grid-area: item3;
+}
+.page3-item3 h1 {
+	font-size: 30px;
+}
+.page3-item3 p {
+	font-size: 20px;
+}
+.page3-item4 {
+	grid-area: item4;
+}
+.page3-item4 h1 {
+	font-size: 30px;
+}
+.page3-item4 p {
+	font-size: 20px;
+}
+.page3-item5 {
+	grid-area: foot;
+}
+.page3-item5 h1 {
+	font-size: 30px;
+}
+.page3-item5 p {
+	font-size: 20px;
+}
+.page3-img {
+	height: 350px;
+	width: 350px;
+}
+.page3-container button {
+    width: 175px;
+    height: 50px;
+    border-radius: 12px;
+    border-color: transparent;
+	color: #ed3205;
+	font-size: 30px;
+}
+.page3-container button:hover {
+    background-color: #8f0401;
+	color: white;
 }
 
 hr {
