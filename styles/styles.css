@@ -4,16 +4,17 @@ body {
 	border-left-style: double;
 	border-right-style: double;
 	border-bottom-style: double;
-	border-color: #DA2128;
+	border-color: #8f0401;
 	border-width: 25px;	
 	}
+	
 nav {
     width: 90%;
     height: 170px;
     display: flex;
     justify-content: space-between;
     padding: 20px 5%;
-    background-color: #3730c4;
+    background-color: #ed3205;
 }
 nav .heading {
     font-size: 70px;
@@ -37,18 +38,113 @@ nav ul li a {
     color: white;
 }
 nav ul li:hover {
-    background-color: #0066B1;
+    background-color: #8f0401;
 }
 nav ul li a:hover {
     color: white;
 }
+
+.grid-container { 
+	display: grid;
+	grid-template-areas:
+		'index index'
+		'page2 page3'
+		'page2 page3'
+		;
+	gap: 10px;
+	background-color: #ed3205;
+	padding: 10px;
+}
+.grid-container > div {
+	background-color: rgba(255, 222, 100, 0.8);
+	text-align: center;
+	padding: 20px 0;
+	font-size: 30px;
+}
+.item1 { 
+	grid-area: index; 
+}
+.item1 p {
+	font-size:30px;
+}
+.item2 { 
+	grid-area: page2; 
+}
+.item2 p {
+	font-size:30px;
+}
+.item3 { 
+	grid-area: page3; 
+}
+.item3 p {
+	font-size:30px;
+}
+
+.page2-container {
+	display: grid;
+	grid-template-areas:
+		'top'
+		'bottom'
+		;
+	gap: 10px;
+	background-color: #ed3205;
+	padding: 10px;
+}
+.page2-container > div {
+	background-color: rgba(255, 222, 100, 0.8);
+	text-align: center;
+	padding: 20px 0;
+	font-size: 30px;
+}
+.page2-item1 {
+	grid-area: top;
+}
+.page2-item1 p {
+	font-size:30px;
+}
+.page2-item2 {
+	grid-area: bottom;
+}
+.page2-item2 p {
+	font-size:30px;
+}
+
+.page3-container {
+	display: grid;
+	grid-template-areas:
+		'top'
+		'bottom'
+		;
+	gap: 10px;
+	background-color: #ed3205;
+	padding: 10px;
+}
+.page3-container > div {
+	background-color: rgba(255, 222, 100, 0.9);
+	text-align: center;
+	padding: 20px 0;
+	font-size: 30px;
+}
+.page3-item1 {
+	grid-area: top;
+}
+.page3-item1 p {
+	font-size:30px;
+}
+.page3-item2 {
+	grid-area: bottom;
+}
+.page3-item2 p {
+	font-size:30px;
+}
+
 hr {
 	border-top: 5px dashed red;
 	}
 h1 {
 	font-size: 45px;
 	text-shadow: -2px 2px 0 #0a0707;
-	color: #CC0000;
+	color: white;
 }
 h2 {
 	font-size: 35px;
