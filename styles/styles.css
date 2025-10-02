@@ -64,20 +64,41 @@ nav ul li a:hover {
 .item1 { 
 	grid-area: index; 
 }
+.item1 h1 {
+	font-size: 40px;
+}
 .item1 p {
 	font-size: 30px;
+}
+.item1 img {
+	height: 250px;
+	width: 350px;	
 }
 .item2 { 
 	grid-area: page2; 
 }
+.item2 h1 {
+	font-size: 35px;
+}
 .item2 p {
-	font-size: 30px;
+	font-size: 25px;
+}
+.item2 img {
+	height: 250px;
+	width: 350px;	
 }
 .item3 { 
 	grid-area: page3; 
 }
+.item3 h1 {
+	font-size: 35px;
+}
 .item3 p {
-	font-size: 30px;
+	font-size: 25px;
+}
+.item3 img {
+	height: 250px;
+	width: 350px;	
 }
 
 .page2-container {
@@ -99,14 +120,36 @@ nav ul li a:hover {
 .page2-item1 {
 	grid-area: top;
 }
+.page2-item1 h1 {
+	font-size: 40px;
+}
 .page2-item1 p {
 	font-size: 30px;
 }
 .page2-item2 {
 	grid-area: bottom;
 }
-.page2-item2 p {
+.page2-item2 h1 {
 	font-size: 30px;
+}
+.page2-item2 p {
+	font-size: 20px;
+}
+.page2-img {
+	height: 230px;
+	width: 300px;
+}
+.page2-container button {
+    width: 175px;
+    height: 50px;
+    border-radius: 12px;
+    border-color: transparent;
+	color: #ed3205;
+	font-size: 30px;
+}
+.page2-container button:hover {
+    background-color: #8f0401;
+	color: white;
 }
 
 .page3-container {
